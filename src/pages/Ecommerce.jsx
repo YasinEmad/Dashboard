@@ -356,41 +356,6 @@ const Ecommerce = () => {
           <p className="text-sm text-gray-400">36 Recent Transactions</p>
         </div>
       </div>
-
-      <div className="p-6 m-3 bg-white shadow-2xl w-400 dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl">
-        <div className="flex justify-between">
-          <p className="text-xl font-semibold">Daily Activities</p>
-          <button
-          type='type'
-          className='text-xl font-semibold text-gray-500'
-          >
-            <IoIosMore/>
-          </button>
-        </div>
-        <div className="mt-10">
-          <img src={product9} className='md:w-96 h-50' alt="" />
-          <div className="mt-8">
-            <p className="text-lg font-semibold">Admin Dashboard Project!</p>
-            <p className='text-gray-400'>By Shivraj Gurjar</p>
-            <p className="mt-8 text-sm text-gray-400">
-                This Project is made by following Tutorial of Adrian Hajdin from
-                YouTube Channel named Javascript Mastery to learn React Advanced
-                Concepts. Do not forget to check my Github Profile by clicking
-                on button down below
-            </p>
-            <div className="flex flex-col mt-3 space-y-2">
-              <a href="https://github.com/iamshiv007">
-                <Button
-                 color='white'
-                 bgColor={currentColor}
-                 borderRadius="10px"
-                 text="Shiv's GitHub"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     </div>
